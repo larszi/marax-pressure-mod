@@ -4,8 +4,8 @@
 
 ### Info Video
 
-- Meme Version ()
-- Shot Version ()
+- [Meme Version](https://www.youtube.com/watch?v=6iu-tRzNN24)
+- [Shot Version](https://www.youtube.com/watch?v=Ix4moGTFoKE)
 
 ### Features
 
