@@ -9,11 +9,11 @@
 
 ### Features
 
-- Pressure Profiling
-- Touchscreen and visualization
-- Publish Temperatures over MQTT 
-- Pressure Readout
-- Cleaning Mode
+- 📊 Pressure Profiling
+- 📝 Touchscreen and visualization
+- 📲 Publish Temperatures over MQTT 
+- 📋 Pressure Readout
+- 🛁 Cleaning Mode
 
 ## todos / planned 
 
