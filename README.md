@@ -46,7 +46,7 @@ This mod can create pressure profiling by reading the current pressure and adjus
 
 - This Project is in no way or form related to LELIT! All trademarks and logos used in this project are for illustrative purposes only and are not intended to indicate any affiliation with any organization or company.
 - This Project is for educational purposes only!
-- This Mod is not recommended, and this repository is for documentary purpose only! Do not try this mod on our machine
+- This Mod is not recommended, and this repository is for documentary purpose only! Do not try this mod on your machine
 
 ## The goal
 
@@ -59,8 +59,8 @@ I played a bit with creating the pressure graph in react and then sending the gr
  - the control of the pressure is only possible due to the vibration pump which can be controlled by an AC dimmer
  - all information's are transmitted via MQTT and can then be integrated in for example HomeAssistant
 
-## For more build information's
-[Look here](./doc/more_details.md)
+# For more build information's
+[Look here](./doc/README.md)
 
 
 ### Similar projects 
