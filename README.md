@@ -18,27 +18,21 @@ This mod can create pressure profiling by reading the current pressure and adjus
 - 🛁 Cleaning Mode
 
 ![BrewGraph](./assets/brew_graph.png)
+
 ## Overview
 
-### Hardware that was used
-
-- [Arduino Nano 33 IOT, SAMD21G18A](https://www.reichelt.de/arduino-nano-33-iot-samd21g18a-mit-header-ard-nano-33iot-h-p261303.html)
-- [Pressure Sensor G1/4 5V](https://de.aliexpress.com/item/4000756631924.html?gatewayAdapt=glo2deu)
-- [230V AC Dimmer](https://de.aliexpress.com/item/32802025086.html?gatewayAdapt=glo2deu)
-- [5mm T-conneter](https://www.landefeld.de/artikel/de/t-steckanschluss-5mm-5mm-iqs-msv-standard-/IQST%2050%20MSV)
-- 5mm high pressure pipe
-- [5mm to G1/4 Adapter](https://www.landefeld.de/artikel/de/steckanschluss-m-innengew-g-14-5mm-iqs-msv-standard-/IQSF%20145%20MSV)
-- [Nextion 2.4 Touchscreen](https://de.aliexpress.com/item/1005003834419474.html?gatewayAdapt=glo2deu)
 
 ### Diagramm
 
-![Wiring Overview](./assets/wiring.png)
+![Wiring Overview](./assets/circuit.svg)
+
+# 🧑🏼‍🏭👩🏼‍💻🧑🏼‍🔧 [More build informations](./doc/README.md) 👩🏼‍🔬👩🏼‍🔧👨🏼‍🏭
 
 ### planned todos
 
 | todo                                 | status  | description                                                                                                                                                    |
 | ------------------------------------ | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| writing a first build "guide"          | 50%     | -                                                                                                                                                              |
+| document more about the mod          | 80%     | -                                                                                                                                                              |
 | add a prober wiring diagram          | started | replace the current diagram with a proper one using a suitable program                                                                                     |
 | better way of the hardware packaging | planned | this mod was started as a PoC and therefor has a lot of room for improvements regarding resulting hardware packaging / smaller components or even a custom PCB |
 
@@ -52,16 +46,17 @@ This mod can create pressure profiling by reading the current pressure and adjus
 
 My goal with this mod was to try and explore the capability's of pressure profiling espresso and I can for sure say that the end result paid off. Even if the development of this mod was quite challenging, I really improved my knowledge about embedded systems and electrics in geneal. 
 
-### Further ideas
+The mod is now in place for more then 3 Months(11.03.23) don't doing good in the "long" run and I certainly had my fun with some espresso recipes.
+
+## Further ideas
 I played a bit with creating the pressure graph in react and then sending the graph points over mqtt to the controller. This step up is definitely interesting to look into a bit more.
 
+If some day, I magically have another machine as "backup" and a lot of free time. I might build all electronics inside the machine from the ground up my self with a proper PID and ...
+
 ### Some more details 
- - the control of the pressure is only possible due to the vibration pump which can be controlled by an AC dimmer
- - all information's are transmitted via MQTT and can then be integrated in for example HomeAssistant
-
-# For more build information's
-[Look here](./doc/README.md)
-
+ - the control of the pressure is only possible due to the vibration pump which can be controlled by an AC dimmer (Imported if you want to mod other machines)
+ - all informations are transmitted via MQTT and can then be integrated in for example HomeAssistant
+ - 
 
 ### Similar projects 
 - [Gaggiuino](https://github.com/Zer0-bit/gaggiuino)
